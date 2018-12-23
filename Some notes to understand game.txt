@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.jitesh.newapptrial.frogView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.jitesh.newapptrial.trucks
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <com.example.jitesh.newapptrial.sea_view
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+</android.support.constraint.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+((frogPosx+34==v1.pos_left && (frogPosx+34==v1.pos_bottom || frogPosx+34==v1.pos_top)) ||
+                (frogPosx+34==v2.pos_left && (frogPosx+34==v2.pos_bottom || frogPosx+34==v2.pos_top)) ||
+                (frogPosx+34==v3.pos_left && (frogPosx+34==v3.pos_bottom || frogPosx+34==v3.pos_top)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if((frogPosx+40<v1.pos_left && frogPosx+40<=v1.pos_right) || frogPosx+40==v2.pos_x || frogPosx+40==v3.pos_x){
+
+else if((frogPosy+40>=v1.pos_y && frogPosy<=v1.pos_y)|| frogPosy+40==v2.pos_y || frogPosy+40==v3.pos_y){
+
+
+
+
+
+
+
+
+
+
+
+jitesh.newapptrial D/position of x and y of touch:  pos_X 557.46826 pos_y 335.21484 --- UP
+
+jitesh.newapptrial D/position of x and y of touch:  pos_X 930.82764 pos_y 753.45703 --- RIGHT
+
+jitesh.newapptrial D/position of x and y of touch:  pos_X 581.49536 pos_y 1197.6562 --- DOWN
+
+jitesh.newapptrial D/position of x and y of touch:  pos_X 115.09277 pos_y 777.48047 --- LEFT
+
+
+08-28 17:51:54.836 5328-5328/com.example.jitesh.newapptrial D/ center of canvas:  center_x 540 center_y 897
+
+ screen size using onDraw canvas: width: 1080 height: 1584
+ screen size using get Resource:  Height: 1794 Width: 1080
+
+com.example.jitesh.newapptrial D/ Height and width:  Height: 1794 Width: 1080

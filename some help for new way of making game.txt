@@ -1,0 +1,31 @@
+    <com.example.jitesh.newapptrial.frogView
+        android:id="@+id/frogView"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+ D/Game: 	value of touch_x 584.4946 value of touch_y771.4453
+ 	   	value of Screen height 1794 screen width1080
+ 
+D/Game:	 value of touch_x 587.4939 value of touch_y284.23828
+
+
+   	value of Screen height 1794 screen width1080
+
+
+    <com.example.jitesh.newapptrial.GameView
+        android:id="@+id/GameView"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
